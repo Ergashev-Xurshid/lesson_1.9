@@ -1,0 +1,689 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  width: 1120px;
+  margin: auto;
+}
+
+.header_row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+header {
+  padding-top: 40px;
+  margin-bottom: 78px;
+}
+
+.logo {
+  width: 118px;
+  height: 42px;
+}
+
+.nav_list {
+  display: flex;
+  list-style: none;
+}
+
+.nav_item {
+  margin-right: 62px;
+}
+
+.nav_link.active {
+  font-weight: bold;
+  border-bottom: 2px solid salmon;
+}
+
+.nav_link {
+  color: #464646;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400px;
+  text-decoration: none;
+}
+
+.btn_login {
+  display: inline-block;
+  padding: 18px 40px;
+  border-radius: 31.5px;
+  background-color: #124f48;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+}
+
+.hero_content {
+  width: 1319px;
+  margin: auto;
+  border-radius: 30px;
+  background-color: #e9fbf9;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 121px;
+  padding-top: 70px;
+
+}
+
+.work {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  background-color: white;
+  display: inline-block;
+  padding: 4px 18px;
+  columns: #ff6107;
+  margin-bottom: 30px;
+}
+
+.hero_title {
+  color: #021D1A;
+  font-family: "Poppins", sans-serif;
+  font-size: 64px;
+  font-weight: 800;
+  line-height: 80px;
+  width: 570px;
+  margin-bottom: 31px;
+}
+
+.hero_text {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  width: 428px;
+  margin-bottom: 51px;
+}
+
+.btn_group {
+  display: flex;
+}
+
+.first_btn {
+  border-radius: 31.5px;
+  color: white;
+  background-color: #ff823b;
+  padding: 18px 39px;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  text-decoration: none;
+}
+
+.second_btn {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.09px;
+  color: #ff6107;
+
+}
+
+.play_img {
+  width: 60px;
+}
+
+.brands {
+  padding-top: 170px;
+}
+
+.brands-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+.brands-item {
+  width: 255px;
+  height: 103px;
+  border-radius: 10px;
+  background-color: #f1faf9;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.brands-img {
+  width: auto;
+}
+
+.services-span {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18.75px;
+  color: #ff6107;
+  padding: 8px 22px;
+  border: 1px solid #e2f7fa;
+  background-color: e2f7fa;
+}
+
+.services-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.services-title {
+  font-family: "Poppins", sans-serif;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 80px;
+  width: 534px;
+}
+
+.services-text {
+  color: #464646;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  width: 428px;
+}
+
+.cards {
+  padding: 70px 0;
+}
+
+.cards-item {
+  border-radius: 20px;
+  padding: 50px 34px;
+}
+
+.cards-item.active {
+  background-color: #fff;
+  box-shadow: 0 px 20px 84px 0 rgba(245, 2245, 245, 0.8);
+}
+
+.cards-item.active .cards-link {
+  color: #fff;
+  background-color: #ff823b;
+  border-radius: 31.5px;
+  padding: 18px 35px;
+}
+
+.cards-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+.card-icon {
+  border-radius: 10px;
+  background-color: #dbffe9;
+  width: 30px;
+  height: 30px;
+  padding: 24px 27px;
+  margin-bottom: 30px;
+}
+
+.card-icon img {
+  width: 31.67px;
+  height: 25px;
+}
+
+.cards-title {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28.13px;
+  margin-bottom: 34px;
+
+}
+
+.cards-text {
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 36px;
+  margin-bottom: 40px;
+}
+
+.cards-link {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.09px;
+  letter-spacing: 0.05em;
+  text-align: left;
+  text-decoration: none;
+  color: #ff6107;
+  padding: 18px 35px;
+}
+
+/* achievements */
+
+
+.achievements-main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 140px;
+}
+
+
+.achievements-1 {
+  width: 540px;
+}
+
+.achievements_span {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #ff6107;
+  padding: 8px 22px;
+  border: 1px solid #e2f7fa;
+  background-color: e2f7fa;
+}
+
+.achievements-title {
+  margin-top: 10px;
+  font-family: "Poppins", sans-serif;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 80px;
+  margin-bottom: 140px;
+}
+
+.achievements-1_span {
+  color: #ff6107;
+}
+
+.achievements-1 img {
+  width: 511px;
+  height: 600px;
+  border-radius: 20px;
+  margin-bottom: 35px;
+}
+
+.achievements-1_title {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28.13px;
+  width: 310px;
+  height: 28px;
+  margin-bottom: 35px;
+}
+
+.achievements-1_text {
+  width: 511px;
+  height: 108px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400px;
+  font-size: 18px;
+  color: #464646;
+  margin-bottom: 45px;
+}
+
+.achievements-1_link {
+  width: 244px;
+  height: 57px;
+  border-radius: 31.5px;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 700px;
+  padding: 18px 40px 18px 36px;
+  text-decoration: none;
+  background-color: #FF823B;
+  color: white;
+}
+
+
+
+.achievements-2 {
+  width: 540px;
+}
+
+.achievements-2_raqam-1 {
+  width: 60px;
+  height: 80px;
+  font-size: 36px;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+  color: rgba(22, 82, 75, 0.523);
+  margin-right: 60px;
+}
+
+.achievements-2_title-1 {
+  width: 146px;
+  height: 52px;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  color: #124F48;
+  margin-right: 63px;
+}
+
+.achievements-2_text-1 {
+  width: 133px;
+  height: 26px;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 700px;
+  color: #FF823B;
+}
+
+.achievements-2_raqam-2 {
+  width: 60px;
+  height: 80px;
+  font-size: 36px;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+  color: rgba(22, 82, 75, 0.523);
+  margin-right: 38px;
+}
+
+.achievements-2_title-2 {
+  width: 146px;
+  height: 52px;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  color: #124F48;
+  margin-right: 54px;
+}
+
+.achievements-2_text-2 {
+  width: 133px;
+  height: 26px;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 700px;
+  color: #FF823B;
+}
+
+.achievements-2_raqam-3 {
+  width: 60px;
+  height: 80px;
+  font-size: 36px;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+  color: rgba(22, 82, 75, 0.523);
+  margin-right: 57px;
+}
+
+.achievements-2_title-3 {
+  width: 146px;
+  height: 52px;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  color: #124F48;
+  margin-right: 45px;
+}
+
+.achievements-2_text-3 {
+  width: 133px;
+  height: 26px;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 700px;
+  color: #FF823B;
+}
+
+.achievements-2_raqam-4 {
+  width: 60px;
+  height: 80px;
+  font-size: 36px;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+  color: rgba(22, 82, 75, 0.523);
+  margin-right: 37px;
+}
+
+.achievements-2_title-4 {
+  width: 146px;
+  height: 52px;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  color: #124F48;
+  margin-right: 78px;
+}
+
+.achievements-2_text-4 {
+  width: 133px;
+  height: 26px;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 700px;
+  color: #FF823B;
+}
+
+
+.achievements-2 img {
+  width: 511px;
+  height: 600px;
+  border-radius: 20px;
+  margin-top: 70px;
+  margin-bottom: 35px;
+}
+
+.achievements_2_2-title {
+  width: 411px;
+  height: 28px;
+  font-size: 24px;
+  font-weight: 700px;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 35px;
+}
+
+.achievements_2_2-text {
+  width: 511px;
+  height: 108px;
+  font-size: 18px;
+  font-weight: 400px;
+  font-family: "Roboto", sans-serif;
+  color: #464646;
+}
+
+
+/* bolg */
+
+.blog-head {
+  text-align: center;
+  margin: 0 300px;
+}
+
+.blog-content-1 {
+  width: 520px;
+  height: 649px;
+}
+
+.blog-span {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #ff6107;
+  padding: 8px 22px;
+  border: 1px solid #e2f7fa;
+  background-color: e2f7fa;
+
+}
+
+.blog-title {
+  margin-top: 25px;
+  font-family: " Poppins ", sans-serif;
+  color: #021D1A;
+}
+
+.blog-text {
+  font-family: " Roboto ", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 25px;
+  margin-bottom: 84px;
+}
+
+.blog-content {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 140px;
+}
+
+
+.blog-content-1 img {
+  width: 460px;
+  height: 299.96px;
+}
+
+.blog-content-title {
+  font-family: " Roboto ", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+  margin-top: 43px;
+  margin-bottom: 35px;
+}
+
+.blog-content-1-text {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  width: 496px;
+  height: 90px;
+  margin-bottom: 45px;
+
+}
+
+.blog-content-1-link {
+  width: 244px;
+  height: 57px;
+  border-radius: 31.5px;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 700px;
+  padding: 18px 40px 18px 36px;
+  text-decoration: none;
+  background-color: #FF823B;
+  color: white;
+}
+
+
+.blog-content-2-link {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.09px;
+  width: 101px;
+  height: 21px;
+  text-decoration: none;
+}
+
+.blog-content-2 img {
+  width: 460px;
+  height: 299.96px;
+}
+
+/* footer */
+
+.footer-head {
+  width: 637px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+
+.footer-title {
+  width: 637px;
+  height: 132px;
+  font-family: " Poppins ", sans-serif;
+  font-size: 44px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.footer-link-1 {
+  font-family: " Poppins ", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  width: 130px;
+  height: 27px;
+  text-decoration: none;
+  color: #FF823B;
+  margin-right: 27px;
+}
+
+.footer-link-2 {
+  width: 203px;
+  height: 57px;
+  border-radius: 31.5px;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  padding: 18px 40px 18px 36px;
+  text-decoration: none;
+  background-color: #FF823B;
+  color: white; 
+}
+
+.footer-1 {
+  background-color: #E9FBF9;
+}
+.footer-main {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 90px;
+}
+
+.footer-main img {
+  width: 157px;
+  height: 64px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #124F48;
+  height: 60px;
+  align-items: center;
+}
+
+.manzil-1 {
+  margin-left: 80px;
+}
+
+.manzil-2 {
+  width: 210px;
+  height: 18px; 
+}
+
+.manzil-2 img {
+  width: 18px;
+  height: 18px;
+}
